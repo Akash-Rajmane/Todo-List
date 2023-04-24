@@ -1,0 +1,176 @@
+.editPage {
+    position: relative;
+    top: 10vh;
+    background-color: #dbf2f9;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .editBox {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(50%);
+    margin: auto;
+    background-color: #fff;
+    width: 650px;
+    height: 200px;
+    padding: 30px 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .inputTodoElement {
+    width: 550px;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin: 30px auto;
+  }
+
+  .inputTodoElement:focus {
+    border: 1px solid darkorchid;
+  }
+  
+  .editBtn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #2f74c0;
+    color: #eee;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .editBtn:hover {
+    background-color: #388ae2;
+  }
+  
+  .cancelBtn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #a70505;
+    color: #eee;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .cancelBtn:hover {
+    background-color: #ff0000;
+  }
+  
+  .btnsGroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    /* margin-top: 20px; */
+  }
+  
+  .noDataText {
+    color: #300339;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    .editBox {
+      width: 450px;
+      height: 150px;
+      padding: 20px 25px;
+    }
+  
+    .inputTodoElement {
+      width: 400px;
+      height: 30px;
+      border-radius: 30px;
+      padding-left: 15px;
+      font-size: 16px;
+      margin: 20px auto;
+    }
+
+    .editBtn {
+      width: 140px;
+      height: 35px;
+      font-size: 18px;
+      border-radius: 35px;
+    }
+        
+    .cancelBtn {
+      width: 140px;
+      height: 35px;
+      font-size: 18px;
+      border-radius: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+
+    .editBox {
+      width: 380px;
+      height: 150px;
+      padding: 10px 15px;
+    }
+  
+    .inputTodoElement {
+      width: 330px;
+      height: 30px;
+      border-radius: 30px;
+      padding-left: 15px;
+      font-size: 16px;
+      margin: 20px auto;
+    }
+  
+    .editBtn {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+      border-radius: 35px;
+    }
+        
+    .cancelBtn {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+      border-radius: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .editBox {
+      width: 280px;
+      height: 150px;
+      padding: 10px 15px;
+    }
+  
+    .inputTodoElement {
+      width: 250px;
+      height: 25px;
+      border-radius: 25px;
+      padding-left: 15px;
+      font-size: 16px;
+      margin: 20px auto;
+    }
+  
+    .editBtn {
+      width: 100px;
+      height: 30px;
+      font-size: 14px;
+      border-radius: 30px;
+    }
+        
+    .cancelBtn {
+      width: 100px;
+      height: 30px;
+      font-size: 14px;
+      border-radius: 30px;
+    }
+  }

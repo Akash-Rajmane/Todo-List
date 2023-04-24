@@ -1,0 +1,48 @@
+.basicCard {
+    width: 450px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 20px auto;
+    /* background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg"); */
+    background-color: #f3c507;
+    font-size: 18px;
+  }
+  
+  .strikeThrough {
+    text-decoration: line-through;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .noStrike {
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .basicFooter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .icon {
+    font-size: 16px;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .basicCard {
+      width: 300px;
+    }
+  }
+  

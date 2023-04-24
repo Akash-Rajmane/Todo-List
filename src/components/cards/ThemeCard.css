@@ -1,0 +1,95 @@
+.light {
+    background-color: white;
+    color: #300339;
+    width: 450px;
+    max-height: max-content;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+  }
+  
+  .dark {
+    background-color: #17021b;
+    color: #eee;
+    width: 450px;
+    max-height: max-content;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+  }
+  
+  .strikeThrough {
+    text-decoration: line-through;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .noStrike {
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  .bulbOn {
+    display: block;
+    transform: scale(1.5) rotate(-45deg);
+    float: right;
+    margin-top: -15px;
+    margin-right: -5px;
+    color: #f3c507;
+  }
+  
+  .bulbOff {
+    display: block;
+    transform: scale(1.5) rotate(-45deg);
+    float: right;
+    margin-top: -15px;
+    margin-right: -5px;
+    color: grey;
+  }
+  
+  img {
+    width: 40%;
+    height: 80px;
+  }
+  
+  .imageBox {
+    padding: 0px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .light {
+      width: 300px;
+    }
+  
+    .dark {
+      width: 300px;
+    }
+
+    .bulbOn {
+      transform: scale(1.2) rotate(-45deg);
+    }
+    
+    .bulbOff {
+      transform: scale(1.2) rotate(-45deg);
+    }
+  }
+  

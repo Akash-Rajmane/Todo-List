@@ -1,0 +1,52 @@
+.listPage {
+    position: relative;
+    top: 10vh;
+    background-color: #dbf2f9;
+    max-height: max-content;
+    min-height: 90vh;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .selectBox {
+    margin: 25px auto;
+  }
+  
+  label {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  select {
+    border: 1px solid grey;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  
+  select:focus {
+    border: 1px solid darkorchid;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    label {
+      font-size: 18px;
+    }
+  
+    select {
+      height: 30px;
+      border-radius: 30px;
+      padding: 2px;
+      padding-left: 15px;
+      font-size: 12px;
+      width: 80px;
+    }
+  
+  }
+  
